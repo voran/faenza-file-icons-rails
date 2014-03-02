@@ -14,7 +14,7 @@ This gem provides a subset of the [Faenza icons](http://tiheum.deviantart.com/ar
 
 ## Installation
 Add the following line to your Gemfile:
-```sh
+```rb
 gem 'faenza-file-icons-rails'
 ```
 Then run:
@@ -36,7 +36,7 @@ end
 ```
 
 You can then use this helper in your views as follows:
-```rb
+```erb
 <img src="<% icon_for "png" %>" alt="icon"/>
 ```
 
